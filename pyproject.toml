@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "creator-outreach-assistant"
+version = "0.1.0"
+description = "Sort creator emails, draft replies with GPT-6 Astra, extract CRM profiles, with guardrails and evaluation."
+requires-python = ">=3.11"
+dependencies = ["fastapi==0.115.6", "uvicorn==0.34.0", "httpx==0.28.1", "pydantic==2.10.4"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

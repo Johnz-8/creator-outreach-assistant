@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Creator Outreach Assistant — demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    label { display: block; margin-top: 1rem; font-weight: 600; }
+    input, textarea { width: 100%; padding: 0.5rem; margin-top: 0.25rem; }
+    button { margin-top: 1rem; padding: 0.6rem 1.2rem; }
+    pre { background: #f4f4f4; padding: 1rem; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Creator Outreach Assistant</h1>
+  <p>Paste a creator email. The API triages it, drafts a reply with GPT-6 Astra (medium effort), checks the draft with guardrails, and extracts a CRM profile. Nothing is sent.</p>
+  <label for="subject">Subject</label>
+  <input id="subject" value="My rate for a TikTok" />
+  <label for="body">Email body</label>
+  <textarea id="body" rows="6">Hi! My rate for one TikTok is $450. I post science explainers, 120k followers on TikTok @labnotes. Let me know if that works.</textarea>
+  <button id="run" type="button">Triage + draft + extract</button>
+  <p id="status"></p>
+  <h2>Triage</h2><pre id="triage"></pre>
+  <h2>Draft</h2><pre id="draft"></pre>
+  <h2>Guardrails</h2><pre id="guardrails"></pre>
+  <h2>CRM profile</h2><pre id="profile"></pre>
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>

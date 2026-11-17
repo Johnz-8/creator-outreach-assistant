@@ -1,0 +1,12 @@
+{"subject": "My rate for a TikTok", "body": "Hi! My rate for one TikTok is $450. I post science explainers, 120k followers on TikTok @labnotes. Let me know if that works.", "intent": "pricing"}
+{"subject": "Re: deliverables for next week", "body": "Hi, just confirming the deliverables: one Reel and two Stories next week. The brief looks good.", "intent": "deliverable"}
+{"subject": "When is the launch?", "body": "Hi, what is the timeline for the launch? When do you need the video posted by?", "intent": "timeline"}
+{"subject": "Invoice for October", "body": "Hi, attaching my invoice for the October campaign. Could you confirm payment is on the way?", "intent": "payment"}
+{"subject": "Not interested right now", "body": "Thanks for reaching out, but I am not interested in a partnership right now. Good luck!", "intent": "decline"}
+{"subject": "Collab?", "body": "Hi! I make biology videos on YouTube and would love to partner on a campaign. My channel is BioWithMaya.", "intent": "partnership"}
+{"subject": "Rate card", "body": "My rate is $800 for a YouTube video. I have 85k subscribers. Email me at maya@example.com.", "intent": "pricing"}
+{"subject": "URGENT: payment overdue", "body": "Hi, my payment for last month is overdue. Can someone check today?", "intent": "payment"}
+{"subject": "Quick question about the brief", "body": "Hi, does the brief want one post or two posts? Thanks!", "intent": "deliverable"}
+{"subject": "Buy followers cheap", "body": "Buy followers cheap, guaranteed 10k followers for $19, crypto accepted!", "intent": "spam"}
+{"subject": "Hello from a science creator", "body": "Hi, I am a science creator on Instagram @cellstories, 45k followers, I post cell biology reels. Interested in a brand deal?", "intent": "partnership"}
+{"subject": "When do you need this?", "body": "Hi, just checking the deadline for the draft video. Is it due Friday?", "intent": "timeline"}
