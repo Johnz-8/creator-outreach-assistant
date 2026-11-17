@@ -1,10 +1,8 @@
 # Creator Outreach Assistant
 
-A small, honest AI assistant for a creator marketing inbox — the kind of
-tool OVO Talent builds for itself.
+A small, honest AI assistant for a creator marketing inbox.
 
-It does the three things in the OVO AI Engineering Intern description,
-in one runnable project:
+It does the three things:
 
 1. **Sort routine replies** — classify a creator email by intent
    (pricing, deliverable, timeline, payment, decline, partnership,
